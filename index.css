@@ -1,11 +1,12 @@
-*{
+*{  
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 #container{
+    color:white;
     background-color: #516171;
 }
 #header{
@@ -14,6 +15,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 2px solid #A9508B;
 }
 h2{
     margin-left: 20px;
@@ -25,17 +27,92 @@ ul{ display:flex;
 }
 li{
     list-style: none;
-    /* margin-left: 10px; */
-
+    font-size: 0.9rem;
+}
+a{
+    color: white;
 }
 span{
     color:#A9508B
-    
 }
 
-#main img{
-    width: 400px;
-}
+
 a{
     text-decoration: none;
+}
+#main{
+    height: 400px;
+    background-size: 100%;
+    background-image: url(./images/showcase.jpg);
+    background-repeat:no-repeat ;
+    background-position: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+#subscribe{
+    height: 80px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+h3{
+    margin-left: 20px;
+}
+.submit{
+    background-color: rgb(241, 83, 21);
+    width: 100px;
+    border:none;
+    color: white;
+}
+input{
+    height: 30px;
+    width: 250px ;
+}
+#graphic{
+    color: black;
+    background-color: white;
+    border:none;
+    height: 250px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.graph{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+h4{
+    margin: 20px;
+}
+.graph p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+.graph img{
+    width: 70px;
+}
+#footer{
+    height:120px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#footer img{
+    width:200px;
+    margin-top: 5px;
 }
