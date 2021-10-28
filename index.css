@@ -10,12 +10,12 @@
     background-color: #516171;
 }
 #header{
-    height: 100px ;
+    height: 90px ;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #A9508B;
+    border-bottom: 4px solid #A9508B;
 }
 h2{
     margin-left: 20px;
@@ -28,6 +28,10 @@ ul{ display:flex;
 li{
     list-style: none;
     font-size: 0.9rem;
+    
+}
+.home a{
+    color:#A9508B;
 }
 a{
     color: white;
