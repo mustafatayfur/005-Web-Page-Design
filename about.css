@@ -125,3 +125,34 @@ input{
     width:200px;
     margin-top: 5px;
 }
+@media screen and (max-width:900px){
+    #graphic{
+        height: auto;
+    }
+    #doublep{
+        width: 80%;
+        margin:10px;
+    }
+    
+    #p1, #p2{
+        max-height: 220px;
+        overflow: scroll;
+    }
+    
+    #singlep p{
+        height: auto;
+        margin: 0 5px 0 5px;
+    }
+    #singlep{
+        width: 45%;
+        height: 450px;
+        margin: 35px 10px 10px 5px;
+        overflow: scroll;        
+    }
+    .submit{
+        width: 80px;
+    }
+    input{
+        width: 150px ;
+    }
+}

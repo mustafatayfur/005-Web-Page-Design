@@ -61,7 +61,7 @@ h3{
 }
 #email{
     height: 30px;
-    width: 250px ;
+    
 }
 #graphic{
     background-color: white;
@@ -73,10 +73,10 @@ h3{
 
 #doublep{
     width: 65%;
-    margin:30px;
+    margin:35px;
 }
 #doublep h4{
-    margin: 0 0 20px ;
+    margin: 0 0 20px;
     color:black;
     text-align: left;
 }
@@ -145,4 +145,66 @@ h5{
 #footer img{
     width:200px;
     margin-top: 5px;
+}
+
+@media screen and (max-width:1200px){
+    h2{
+        margin-left: 10px;
+        text-align: center;
+    }
+    #doublep{
+        margin:20px;
+    }
+    #form{
+        width: 45%;
+        margin: 35px 0px 0px 5px;
+    }
+    #send{
+        width: 45%; 
+    }
+    ul{ 
+        width: 230px;
+    }
+    #p1 p, #p2 p, #p3 p{
+        margin:10px 0 ;
+        font-size: 0.9rem;
+    }
+    #p1, #p2, #p3{
+        margin:25px 5px 0 0;
+        padding: 10px;
+    }
+    h5{
+        margin:10px 0;
+    }
+}
+@media screen and (max-width:600px){
+    h2{
+        margin-left: 10px;
+        text-align: center;
+    }
+    #doublep{
+        margin:5px;
+    }
+    #form{
+        width: 45%;
+        margin: 35px 0px 0px 1px;
+        padding: 0 0 5px 5px;
+    }
+    #send{
+        width: 75%; 
+    }
+    ul{ 
+        width: 180px;
+    }
+    #p1 p, #p2 p, #p3 p{
+        margin:5px 0 ;
+        font-size: 0.8rem;
+    }
+    #p1, #p2, #p3{
+        margin:12px 2px 0 0;
+        padding: 5px;
+    }
+    h5{
+        margin:10px 0;
+    }
 }
