@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    /* border: 1px solid red; */
+   
 }
 #container{
     color:white;
@@ -123,5 +123,42 @@ h4{
     margin-top: 5px;
 }
 @media screen and (max-width:900px){
-    
+    *{
+        font-size: 0.9rem;
+    }
+    #header{
+        height: 70px ;
+    }
+    ul{ 
+        
+        width: 200px;
+    }
+    #main{
+        height: 300px;
+    }
+    h4{
+        text-align: center;
+        margin: 10px;
+    }
+    #main p{
+        text-align: center;
+    }
+    h3{
+        margin-left: 10px;
+        text-align: center;
+    }
+    #email{
+        width: 100%;
+    }
+    .graph{
+        margin: 4px;
+    }
+    .graph p{
+        font-size: 0.8rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    .graph img{
+        width: 40px;
+    }
 }

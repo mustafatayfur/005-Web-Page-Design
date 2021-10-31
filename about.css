@@ -126,6 +126,9 @@ input{
     margin-top: 5px;
 }
 @media screen and (max-width:900px){
+    *{
+        font-size: 0.9rem;
+    }
     #graphic{
         height: auto;
     }
